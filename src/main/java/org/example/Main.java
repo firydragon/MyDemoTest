@@ -9,6 +9,8 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+            System.out.println("测试修改！");
             //TIP 按 <shortcut actionId="Debug"/> 开始调试代码。我们已经设置了一个 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 断点
             // 但您始终可以通过按 <shortcut actionId="ToggleLineBreakpoint"/> 添加更多断点。
             System.out.println("i = " + i);
